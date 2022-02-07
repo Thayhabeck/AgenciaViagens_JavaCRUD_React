@@ -1,0 +1,454 @@
+*,::after,::before{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #555, transparent);  
+  }
+  .navbar {
+      background-color: #E4E4F5;
+      height: 50px;
+      padding: 0px;
+  }
+  a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  .logo {
+      height: 30px;
+      width: 130px;
+  }
+  .nav-item {
+      display: inline-block;
+      padding: 0px 10px 0px 10px;
+      text-decoration: none;
+      color: #4f4f4f;
+  }
+  .navbar-collapse {
+      background-color: #E4E4F5;
+  }
+  
+  .nav-item:hover {
+      background-color: #ff3eff23;
+  }
+  main {
+      padding-bottom: 70px;
+  }
+  /* Provide sufficient contrast against white background */
+  
+  
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #a366ff;
+    border-color: #a366da;
+  }
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+  html {
+    font-size: 14px;
+    padding: 0px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+      padding: 0px;
+    }
+  }
+  
+  .box-shadow {
+      box-shadow: 0 .25rem .75rem #555;
+  }
+  
+  button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+  html {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    width: 100%;
+  }
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      white-space: nowrap;
+      line-height: 50px; /* Vertically center the text there */
+      background-color: #E4E4F5;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 0 -0.25rem .75rem #555;
+  }
+  .img-recode{
+    height: 12px;
+  }
+  
+  body {
+      font-family: 'Lato', sans-serif;
+  }
+  
+  /*Estilização da pagina inicial
+  -----------------------------------------------*/
+  .jumbotron{
+    background-color: #ff3eff25;
+    border-radius: 30px;
+  }
+  .carousel {
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;
+    vertical-align: middle;
+    overflow:hidden;
+    box-shadow:3px 3px 6px #290066;
+  }
+  .carousel-item {
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;
+    background-size:cover;
+    background-position:center;
+    justify-content:center;
+    align-items:center;
+  }
+  .carousel-inner{
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .carousel-caption{
+    background-color: #2228;
+    border-radius: 20px;
+    text-shadow: 1px 1px 2px #ff3eff23;
+  }
+  .carousel-inner .carousel-item:nth-child(1){
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-florianopolis-capa2019-01.jpg);
+  }
+  
+  .carousel-item:nth-child(2){
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/11/fundo-RDMD-SESC-SENAC.jpg?w=876&h=484&crop=1);
+  }
+  
+  .carousel-item:nth-child(3){
+    background-image: url(https://www.viagenscinematograficas.com.br/wp-content/uploads/2019/02/Lencois-Maranhenses-Como-Ir-Melhor-Epoca-Capa.jpg);
+  }
+  .carousel-item:nth-child(4){
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2020/09/arraial-do-cabo-capa2019.jpg);
+  }
+  .carousel-item:nth-child(5){
+    background-image: url(https://i1.wp.com/dianaviaja.com/wp-content/uploads/2017/11/diana-viaja-chapada-dos-veadeiros-dica-2017.jpg?resize=1200%2C768&ssl=1&is-pending-load=1);
+  }
+  
+  /*Estilização das demais paginas
+  -----------------------------------------------*/
+  .header-pags{
+    display: inline-flex;
+    justify-content: center;
+    background-color:#fdf5;
+    height:100px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .header-pags > h2{
+    height:100px;
+    padding: 30px;
+  }
+  .header-pags > figure{
+    height:100px;
+    padding: 20px;
+  }
+  .header-pags > figure > img{
+    height:60px;
+  }
+  .card{
+    background-color:#ff3eff23;
+    min-width:18rem;
+    max-width: 18rem;
+    width: 18rem;
+    border-radius: 20px;
+    box-shadow: 0 .25rem .75rem #555;
+  }
+  .card:hover{
+    background-color:#7519ff55;
+    border: 1px solid #7519ff;
+    color:#290066;
+  }
+  .card-img-top{
+    height: 40%;
+    border-radius: 20px 20px 0px 00px;
+  }
+  .preco{
+      color:#7519ff;
+  }
+  .btn-secondary{
+    color: #fff;
+    font-size: 18px;
+    border-color: #a366da;
+    background: linear-gradient(90deg, rgba(255,62,255,.7) 0%, rgba(117,25,255,.7) 100%); ;
+  }
+  .btn-secondary:hover{
+    background: linear-gradient(90deg, rgba(255,62,255,.5) 0%, rgba(117,25,255,.5) 100%); ;
+  }
+  .person{
+    background-color:#ff3eff23;
+    border-radius: 20px;
+  }
+
+  /* ======> INICIO DOS ITENS DA PAG DESTINO <========*/
+
+.box_destino{
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+  width: 20%;
+  background-color: #ff3eff23;
+  border: 1px solid #ff3eff;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+.box_destino > img{
+  box-shadow: 1px 1px 2px #7519ff;
+  border-radius: 10px;
+  width: 80%;
+}
+.box_destino:hover{
+  background-color:#7519ff55;
+  border: 1px solid #7519ff;
+  color:#290066;
+}
+.descricao{
+  font-size: 1.1em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:500;
+  margin-bottom: 10px;
+}
+.diarias{
+  font-size: 0.8em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:300;
+  margin: 10px;
+}
+.preco{
+  margin-top: 0;
+  color:#7519ff;
+  font-size: 1.2em;
+}
+
+.destinos{
+  margin: 20px 10px 0px 20px;
+  display:inline-block;
+}
+
+
+/* ======> FIM DOS ITENS DA PAG DESTINO <========*/
+
+/* ======> INÌCIO DOS ITENS DA PAG PROMOÇÔES <========*/
+
+.promo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.box-promo{
+  margin: 10px;
+  border-radius: 20px;
+  position: relative;
+  width: 350px;
+  height: 200px;
+  background:#290066;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+}
+
+.box-promo .imgBox{
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box-promo .imgBox img{
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.box-promo:hover .imgBox img{
+  border-radius: 20px;
+  opacity: 0;
+}
+
+.box-promo .content{
+  border-radius: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  width: 80%;
+  height: 80px;
+  background:#fefa;
+  transition: 0.5s;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.box-promo:hover .content{
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.box-promo .content h3{
+  font-size: 24px;
+  text-align: center;
+}
+
+.box-promo:hover .content h3{
+  display: none;
+}
+
+.intro{
+  padding: 10px 10px 0px 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.preco1{
+  padding: 5px 10px 0px 0px;
+  display: inline-flex;
+  text-decoration: line-through;
+  color: #333;
+}
+
+.preco2{
+  padding: 5px;
+  display: inline-flex;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: red;
+}
+
+.box-promo:hover{
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.promo-card h2{
+  margin-top: 5px;
+  color: #000;
+}
+
+.promo-card h2, h4{
+  text-align: center;
+}
+
+.promo-card p{
+  padding: 0px 15px 0px 15px;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 800px){
+  .promo{
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box-promo{
+    margin: 30px;
+  }
+}
+
+/* ======> FIM DOS ITENS DA PAG PROMOÇÔES <========*/
+
+/* ======> INÌCIO DOS ITENS DA PAG CONTATO <========*/
+.contato{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 20px;
+}
+.contato > figure{
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+}
+.contato > figure > img{
+  display: inline-block;
+  width: 100%;
+}
+.contato > form{
+  display: inline-block;
+  width: 40%;
+  padding: 30px;
+  text-align: center;
+  background-color: #ff3eff23;
+  border-radius: 20px;
+}
+.contato > form > label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contato > form > .input{
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px groove #ff3eff;
+  height: 25px;
+}
+.contato > form > #msg{
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px groove #ff3eff;
+}
+.contato > form > #btn-enviar{
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  width: 40%;
+  border: none;
+  box-shadow: 2px 2px 3px #333;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(255,62,255,.7) 0%, rgba(117,25,255,.7) 100%); ;
+}
+.contato > form > #btn-enviar:hover{
+  color: #ddd;
+  background: linear-gradient(90deg, rgba(255,62,255,.5) 0%, rgba(117,25,255,.5) 100%); ;
+}
